@@ -1,0 +1,49 @@
+<form action="../../../../Working%20files/FELIX%20FERNANDO/Tugas%201%20-%20HTML%20Dasar/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Mohon mengisi form ini untuk membuat akun baru.</p>
+    <hr>
+    <label for="nama-depan"><b>Nama Depan</b></label>
+    <input type="text" placeholder="Nama Depan" name="nama-depan" required>
+    <br>
+    <label for="nama-belakang"><b>Nama Belakang</b></label>
+    <input type="text" placeholder="Nama Belakang" name="nama-belakang" required>
+    <br>
+    <label for="email"><b>Nama Lengkap</b></label>
+    <input type="text" placeholder="Email" name="email" required>
+    <br>  
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="psw" required>
+    <br>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br>
+    <label for="no-telp"><b>Nama Lengkap</b></label>
+    <input type="text" placeholder="Nomor Telepon" name="no-telp" required>
+    <br><br>
+      <label for="gender"> Pilih jenis Kelamin</label>
+    <select name ="gender">
+      <option value ="Laki-Laki" selected>Laki-Laki</option>
+      <option value ="Perempuan" selected>Perempuan</option>
+      <option value ="Lainnya" selected>lainnya</option>
+    </select>
+    
+    <br><br>
+    <form action="/action_page.php">
+    <label for="img">Select image:</label>
+    <input type="file" id="img" name="img" accept="image/*">
+    <input type="submit">
+</form>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
